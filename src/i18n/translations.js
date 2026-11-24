@@ -39,6 +39,7 @@ export const translations = {
     liveWaitSummary: "Current Queue Load",
     peopleWaiting: "people waiting",
     estimatedWait: "Estimated wait",
+<<<<<<< HEAD
     noOneWaiting: "No one waiting — walk right in!",
     barbersOnDuty: "Barbers on Duty",
     joinQueueCTA: "Join Queue",
@@ -46,6 +47,20 @@ export const translations = {
     haveTokenPrompt: "Already have a token?",
     checkStatusBtn: "Check Status",
     enterTokenOrPhone: "Enter Token (e.g. S-10) or Phone",
+=======
+    walkRightIn: "No one waiting — walk right in!",
+    barbersOnDuty: "Barbers on Duty",
+    onDutyCount: "on duty",
+    joinQueueCTA: "Join Queue",
+    queueClosedBtn: "Queue Closed Today",
+    queueClosedMsg: "Online queue joining is currently closed. Walk-ins are still welcome at reception!",
+    haveTokenPrompt: "Already have a token?",
+    checkStatusBtn: "Check Status",
+    enterTokenOrPhone: "Enter Token (e.g. S-14) or 10-digit Phone",
+    tokenNotFoundAlert: "No active token found for '{query}'. Please check your token or phone.",
+    busyMinsLeft: "Busy • ~{mins}m left",
+    chairFree: "Free",
+>>>>>>> dad08c2 (feat: scaffold Vite + Tailwind app and update live demo URL)
 
     // Screen 2: Join Queue
     joinTitle: "Join Queue",
@@ -53,23 +68,43 @@ export const translations = {
     customerDetails: "Your Information",
     fullName: "Full Name",
     fullNamePlaceholder: "e.g. Rahul Sharma",
+<<<<<<< HEAD
     phoneNumber: "Phone Number",
     phoneNumberPlaceholder: "10-digit mobile number",
     phoneValidationMsg: "Please enter a valid 10-digit phone number",
     selectServices: "Select Services",
     maxServicesHint: "Pick up to 3 services",
     serviceLimitReached: "Maximum 3 services allowed",
+=======
+    nameRequired: "Please enter your full name.",
+    phoneNumber: "Phone Number",
+    phoneNumberPlaceholder: "10-digit mobile number",
+    phoneValidationMsg: "Please enter a valid 10-digit phone number.",
+    phoneDigitsHint: "Digits entered",
+    selectServices: "Select Services",
+    maxServicesHint: "Pick up to 3 services",
+    serviceLimitReached: "Maximum 3 services allowed. Please deselect one first.",
+    selectAtLeastOneService: "Please select at least 1 service.",
+>>>>>>> dad08c2 (feat: scaffold Vite + Tailwind app and update live demo URL)
     barberPreference: "Barber Preference",
     anyBarberFastest: "Any Barber (Fastest)",
     confirmAndGetToken: "Confirm & Get Token",
     totalSummary: "Total",
     durationUnit: "min",
     priceUnit: "₹",
+<<<<<<< HEAD
+=======
+    estWaitLabel: "Est. Wait",
+    duplicatePhoneAlert: "You already have an active token ({token}) in line! Redirecting to your live status...",
+    redirecting: "Redirecting...",
+    barberOnBreakDisabled: "On Break (Unavailable)",
+>>>>>>> dad08c2 (feat: scaffold Vite + Tailwind app and update live demo URL)
 
     // Screen 3: My Status
     statusTitle: "My Queue Status",
     tokenLabel: "Your Token",
     yourPosition: "Position in Line",
+<<<<<<< HEAD
     alertPos2: "You're 2nd in line! Please start heading to the salon.",
     alertCalledTitle: "IT'S YOUR TURN!",
     alertCalledSubtitle: "Please proceed to your barber's chair.",
@@ -79,6 +114,29 @@ export const translations = {
     confirmCancelMsg: "Are you sure you want to cancel your place in line?",
     yesCancel: "Yes, Cancel",
     keepMySpot: "Keep My Spot",
+=======
+    inLinePosition: "#{pos} in line",
+    nextInLine: "1st in line — Next up!",
+    secondInLine: "2nd in line",
+    alertPos2: "You're 2nd in line! Please start heading to the salon.",
+    barberOnBreakNotice: "{barber} is currently on a short break. Your turn will be called as soon as they return.",
+    alertCalledTitle: "IT'S YOUR TURN!",
+    alertCalledSubtitle: "Please proceed to {barber}'s chair immediately.",
+    alertInChair: "You are currently with {barber}. Enjoy your service!",
+    cancelSpotBtn: "Cancel My Spot",
+    confirmCancelTitle: "Cancel Queue Spot?",
+    confirmCancelMsg: "Are you sure you want to cancel your place in line? You will lose your current spot.",
+    yesCancel: "Yes, Cancel",
+    keepMySpot: "Keep My Spot",
+    spotCancelledTitle: "Queue Spot Cancelled",
+    spotCancelledMsg: "Your spot in line has been cancelled successfully. Feel free to join again anytime!",
+    rejoinQueueBtn: "Join Queue Again",
+    serviceCompletedTitle: "Service Completed!",
+    serviceCompletedMsg: "Thank you for visiting Aura Grooming Lounge. We hope to see you again soon!",
+    statusLiveAuto: "Auto-updating live queue status",
+    vibrationTriggered: "Vibration alert triggered!",
+    testSimulation: "Interactive State Testing",
+>>>>>>> dad08c2 (feat: scaffold Vite + Tailwind app and update live demo URL)
 
     // Screen 4: Reception Dashboard
     receptionTitle: "Receptionist Command Center",
@@ -93,6 +151,31 @@ export const translations = {
     cancelCustomerBtn: "Cancel",
     queueClear: "Queue is clear! Ready for walk-ins.",
     chairAvailable: "Chair is unoccupied",
+<<<<<<< HEAD
+=======
+    walkInModalTitle: "Add Walk-in Customer",
+    walkInModalDesc: "Register walk-in client. They will receive the next sequential token and join the queue.",
+    walkInSuccess: "Walk-in registered! Assigned Token: {token}",
+    customerCalledSuccess: "Called {token} ({name}) for {barber}!",
+    noEligibleCustomer: "No eligible customer waiting",
+    chairOccupied: "Chair occupied",
+    barberBreakActive: "Barber on break",
+    lockDashboard: "Lock",
+    lockedTitle: "Reception Locked",
+    lockedSubtext: "Enter 4-digit PIN (Demo: 1234) to access Reception Dashboard",
+    waitDurationMins: "{mins}m wait",
+    over60MinsAlert: "> 60m wait (High)",
+    confirmNoShowTitle: "Confirm Customer No-Show",
+    confirmNoShowMsg: "Mark {token} ({name}) as No-Show? They will be removed from the active queue.",
+    confirmCancelCustomerTitle: "Cancel Customer Spot?",
+    confirmCancelCustomerMsg: "Cancel {token} ({name})? They will be removed from the active queue.",
+    assignedBarber: "Assigned",
+    elapsedProgress: "Elapsed: {elapsed}m / {total}m",
+    submitWalkIn: "Issue Token & Add to Queue",
+    walkInClose: "Close",
+    clientsCount: "clients",
+    barberChairsCount: "chairs on duty",
+>>>>>>> dad08c2 (feat: scaffold Vite + Tailwind app and update live demo URL)
 
     // Screen 5: Barber View
     barberViewTitle: "Barber Station",
@@ -136,9 +219,13 @@ export const translations = {
     editService: "Edit",
     saveChanges: "Save Changes",
 
+<<<<<<< HEAD
     // General & Placeholders
     placeholderNotice: "Screen Placeholder — Ready for Phase 2 Implementation",
     placeholderSubtext: "Layout scaffolding and design tokens verified.",
+=======
+    // General
+>>>>>>> dad08c2 (feat: scaffold Vite + Tailwind app and update live demo URL)
     currentTime: "Current Time",
   },
   gu: {
@@ -180,6 +267,7 @@ export const translations = {
     homeTitle: "ઓરા માં આપનું સ્વાગત છે",
     liveWaitSummary: "હાલની કતાર સ્થિતિ",
     peopleWaiting: "લોકો પ્રતીક્ષામાં છે",
+<<<<<<< HEAD
     estimatedWait: "અંદાજિત સમય",
     noOneWaiting: "કોઈ પ્રતીક્ષામાં નથી — સીધા જ અંદર પધારો!",
     barbersOnDuty: "હાજર વાળંદ (બાર્બર્સ)",
@@ -188,6 +276,21 @@ export const translations = {
     haveTokenPrompt: "પહેલેથી જ ટોકન છે?",
     checkStatusBtn: "સ્ટેટસ તપાસો",
     enterTokenOrPhone: "ટોકન (દા.ત. S-10) અથવા ફોન દાખલ કરો",
+=======
+    estimatedWait: "અંદાજિત રાહ",
+    walkRightIn: "કોઈ પ્રતીક્ષામાં નથી — સીધા જ અંદર પધારો!",
+    barbersOnDuty: "હાજર વાળંદ (બાર્બર્સ)",
+    onDutyCount: "હાજર",
+    joinQueueCTA: "કતારમાં જોડાઓ",
+    queueClosedBtn: "આજ માટે કતાર બંધ છે",
+    queueClosedMsg: "ઑનલાઇન કતાર નોંધણી હાલ બંધ છે. રિસેપ્શન પર સીધા વૉક-ઇન માટે પધારો!",
+    haveTokenPrompt: "પહેલેથી જ ટોકન છે?",
+    checkStatusBtn: "સ્ટેટસ તપાસો",
+    enterTokenOrPhone: "ટોકન (દા.ત. S-14) અથવા ૧૦ અંકનો ફોન દાખલ કરો",
+    tokenNotFoundAlert: "'{query}' માટે કોઈ સક્રિય ટોકન મળ્યું નથી. કૃપા કરીને તપાસો.",
+    busyMinsLeft: "કાર્યરત • ~{mins} મિ બાકી",
+    chairFree: "ખાલી",
+>>>>>>> dad08c2 (feat: scaffold Vite + Tailwind app and update live demo URL)
 
     // Screen 2: Join Queue
     joinTitle: "કતારમાં જોડાઓ",
@@ -195,23 +298,43 @@ export const translations = {
     customerDetails: "તમારી વિગત",
     fullName: "પૂરું નામ",
     fullNamePlaceholder: "દા.ત. રાહુલ શર્મા",
+<<<<<<< HEAD
     phoneNumber: "મોબાઈલ નંબર",
     phoneNumberPlaceholder: "૧૦ અંકનો મોબાઈલ નંબર",
     phoneValidationMsg: "કૃપા કરીને માન્ય ૧૦ અંકનો ફોન નંબર દાખલ કરો",
     selectServices: "સેવાઓ પસંદ કરો",
     maxServicesHint: "મહત્તમ ૩ સેવાઓ પસંદ કરો",
     serviceLimitReached: "મહત્તમ ૩ સેવાઓ માન્ય છે",
+=======
+    nameRequired: "કૃપા કરીને તમારું પૂરું નામ દાખલ કરો.",
+    phoneNumber: "મોબાઈલ નંબર",
+    phoneNumberPlaceholder: "૧૦ અંકનો મોબાઈલ નંબર",
+    phoneValidationMsg: "કૃપા કરીને માન્ય ૧૦ અંકનો ફોન નંબર દાખલ કરો.",
+    phoneDigitsHint: "દાખલ કરેલ અંક",
+    selectServices: "સેવાઓ પસંદ કરો",
+    maxServicesHint: "મહત્તમ ૩ સેવાઓ પસંદ કરો",
+    serviceLimitReached: "મહત્તમ ૩ સેવાઓ માન્ય છે. કૃપા કરીને પહેલાં કોઈ સેવા દૂર કરો.",
+    selectAtLeastOneService: "કૃપા કરીને ઓછામાં ઓછી ૧ સેવા પસંદ કરો.",
+>>>>>>> dad08c2 (feat: scaffold Vite + Tailwind app and update live demo URL)
     barberPreference: "વાળંદની પસંદગી",
     anyBarberFastest: "કોઈપણ વાળંદ (સૌથી ઝડપી)",
     confirmAndGetToken: "પુષ્ટિ કરો અને ટોકન મેળવો",
     totalSummary: "કુલ",
     durationUnit: "મિનિટ",
     priceUnit: "₹",
+<<<<<<< HEAD
+=======
+    estWaitLabel: "અંદાજિત રાહ",
+    duplicatePhoneAlert: "તમારી પાસે પહેલેથી જ કતારમાં સક્રિય ટોકન ({token}) છે! તમારા લાઈવ સ્ટેટસ પર લઈ જઈએ છીએ...",
+    redirecting: "રીડાયરેક્ટ થઈ રહ્યું છે...",
+    barberOnBreakDisabled: "વિરામ પર (ઉપલબ્ધ નથી)",
+>>>>>>> dad08c2 (feat: scaffold Vite + Tailwind app and update live demo URL)
 
     // Screen 3: My Status
     statusTitle: "મારું કતાર સ્ટેટસ",
     tokenLabel: "તમારું ટોકન",
     yourPosition: "કતારમાં તમારો ક્રમ",
+<<<<<<< HEAD
     alertPos2: "તમે ૨જા ક્રમે છો! કૃપા કરીને સલૂન તરફ આવવાનું શરૂ કરો.",
     alertCalledTitle: "તમારો વારો આવી ગયો છે!",
     alertCalledSubtitle: "કૃપા કરીને તમારા વાળંદની ખુરશી પર પધારો.",
@@ -221,6 +344,29 @@ export const translations = {
     confirmCancelMsg: "શું તમે ખાતરીપૂર્વક કતારમાંથી તમારો નંબર રદ કરવા માંગો છો?",
     yesCancel: "હા, રદ કરો",
     keepMySpot: "નંબર ચાલુ રાખો",
+=======
+    inLinePosition: "કતારમાં #{pos} ક્રમે",
+    nextInLine: "૧લા ક્રમે — આગળનો વારો તમારો!",
+    secondInLine: "૨જા ક્રમે",
+    alertPos2: "તમે ૨જા ક્રમે છો! કૃપા કરીને સલૂન તરફ આવવાનું શરૂ કરો.",
+    barberOnBreakNotice: "{barber} હાલમાં ટૂંકા વિરામ પર છે. તેઓ પરત ફરતાં જ તમારો વારો બોલાવવામાં આવશે.",
+    alertCalledTitle: "તમારો વારો આવી ગયો છે!",
+    alertCalledSubtitle: "કૃપા કરીને તરત જ {barber}ની ખુરશી પર પધારો.",
+    alertInChair: "તમે હાલમાં {barber} સાથે છો. સેવાનો આનંદ લો!",
+    cancelSpotBtn: "મારો નંબર રદ કરો",
+    confirmCancelTitle: "શું ખરેખર નંબર રદ કરવો છે?",
+    confirmCancelMsg: "શું તમે ખાતરીપૂર્વક કતારમાંથી તમારો નંબર રદ કરવા માંગો છો? તમારો હાલનો ક્રમ જતો રહેશે.",
+    yesCancel: "હા, રદ કરો",
+    keepMySpot: "નંબર ચાલુ રાખો",
+    spotCancelledTitle: "કતારમાંથી નંબર રદ થયો",
+    spotCancelledMsg: "કતારમાંથી તમારો નંબર સફળતાપૂર્વક રદ કરવામાં આવ્યો છે. તમે ગમે ત્યારે ફરી જોડાઈ શકો છો!",
+    rejoinQueueBtn: "ફરી કતારમાં જોડાઓ",
+    serviceCompletedTitle: "સેવા પૂર્ણ થઈ ગઈ છે!",
+    serviceCompletedMsg: "ઓરા ગ્રૂમિંગ લાઉન્જની મુલાકાત લેવા બદલ આભાર. ફરી પધારશો!",
+    statusLiveAuto: "લાઈવ કતાર સ્ટેટસ ઑટો-અપડેટ થઈ રહ્યું છે",
+    vibrationTriggered: "વાઇબ્રેશન ચેતવણી વાગી!",
+    testSimulation: "સ્થિતિ ટેસ્ટિંગ (ડેમો)",
+>>>>>>> dad08c2 (feat: scaffold Vite + Tailwind app and update live demo URL)
 
     // Screen 4: Reception Dashboard
     receptionTitle: "રિસેપ્શન કમાન્ડ સેન્ટર",
@@ -231,10 +377,39 @@ export const translations = {
     activeBarberChairs: "સક્રિય બાર્બર ખુરશીઓ",
     waitingQueue: "પ્રતીક્ષા કતાર",
     callNextBtn: "આગળના ગ્રાહકને બોલાવો",
+<<<<<<< HEAD
     noShowBtn: "ગેરહાજર નોંધો",
     cancelCustomerBtn: "રદ કરો",
     queueClear: "કતાર ખાલી છે! નવા ગ્રાહકો માટે તૈયાર.",
     chairAvailable: "ખુરશી ખાલી છે",
+=======
+    noShowBtn: "ગેરહાજર",
+    cancelCustomerBtn: "રદ કરો",
+    queueClear: "કતાર ખાલી છે! નવા ગ્રાહકો માટે તૈયાર.",
+    chairAvailable: "ખુરશી ખાલી છે",
+    walkInModalTitle: "વૉક-ઇન ગ્રાહક ઉમેરો",
+    walkInModalDesc: "વૉક-ઇન ગ્રાહકની વિગત દાખલ કરો. તેમને આગામી ટોકન મળશે અને કતારમાં જોડાશે.",
+    walkInSuccess: "વૉક-ઇન નોંધાઈ ગયું! ફાળવેલ ટોકન: {token}",
+    customerCalledSuccess: "{barber} માટે {token} ({name}) ને બોલાવ્યા!",
+    noEligibleCustomer: "કોઈ પાત્ર ગ્રાહક પ્રતીક્ષામાં નથી",
+    chairOccupied: "ખુરશી કાર્યરત છે",
+    barberBreakActive: "વાળંદ વિરામ પર છે",
+    lockDashboard: "લૉક",
+    lockedTitle: "રિસેપ્શન લૉક થયેલ છે",
+    lockedSubtext: "રિસેપ્શન ડેશબોર્ડ ખોલવા માટે ૪-અંકનો પિન (ડેમો: ૧૨૩૪) દાખલ કરો",
+    waitDurationMins: "{mins} મિ રાહ",
+    over60MinsAlert: "> ૬૦ મિ રાહ (ચેતવણી)",
+    confirmNoShowTitle: "ગેરહાજર નોંધવાની પુષ્ટિ",
+    confirmNoShowMsg: "શું {token} ({name}) ને ગેરહાજર નોંધવા છે? તેમને સક્રિય કતારમાંથી દૂર કરવામાં આવશે.",
+    confirmCancelCustomerTitle: "ગ્રાહકનો નંબર રદ કરવો છે?",
+    confirmCancelCustomerMsg: "શું {token} ({name}) નો નંબર રદ કરવો છે? તેમને સક્રિય કતારમાંથી દૂર કરવામાં આવશે.",
+    assignedBarber: "સોંપેલ",
+    elapsedProgress: "વીતેલો સમય: {elapsed}મિ / {total}મિ",
+    submitWalkIn: "ટોકન આપો અને કતારમાં ઉમેરો",
+    walkInClose: "બંધ કરો",
+    clientsCount: "ગ્રાહકો",
+    barberChairsCount: "ખુરશીઓ હાજર",
+>>>>>>> dad08c2 (feat: scaffold Vite + Tailwind app and update live demo URL)
 
     // Screen 5: Barber View
     barberViewTitle: "બાર્બર સ્ટેશન",
@@ -278,9 +453,13 @@ export const translations = {
     editService: "ફેરફાર કરો",
     saveChanges: "સેવ કરો",
 
+<<<<<<< HEAD
     // General & Placeholders
     placeholderNotice: "સ્ક્રીન પ્લેસહોલ્ડર — ફેઝ ૨ અમલીકરણ માટે તૈયાર",
     placeholderSubtext: "લેઆઉટ માળખું અને ડિઝાઇન ટોકન્સ ચકાસાયેલ છે.",
+=======
+    // General
+>>>>>>> dad08c2 (feat: scaffold Vite + Tailwind app and update live demo URL)
     currentTime: "હાલનો સમય",
   },
 };
